@@ -1,0 +1,8 @@
+Options -Indexes
+
+<Files "databaseConfig.php">
+    Require all denied
+</Files>
+<FilesMatch ".sql">
+    Deny from All
+</FilesMatch>
